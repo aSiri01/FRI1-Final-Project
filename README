@@ -1,0 +1,7 @@
+1. git clone https://github.com/microsoft/vcpkg.git
+2. cd vdpkg
+3. .\bootstrap-vcpkg.bat
+4. ./vcpkg install curl
+5. ./vcpkg install nlohmann-json
+6. ./vcpkg list (this should confirm packages are correct)
+7. build (ctrl shift b) and run (fn f5)
