@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     while continue_game:
         question = questions[current_question_index].strip()
-        user_input = input(f"Q: {question}\nContinue? (Y/N): ").lower()
+        user_input = input(f"Q: {question}\Go to location? (Y/N): ").lower()
 
         # Get response from ChatGPT
         response = get_gpt_response(question)
